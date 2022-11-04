@@ -1,0 +1,687 @@
+*{
+    background-color: #121f3d;
+      margin: 0;
+      padding: 0;
+  }
+  .logo{
+      margin-top: 0;
+      position:relative;
+      
+  }
+  header{
+      
+      margin-top: 0;text-align: center;
+  }
+  
+  .nav-logged{
+      
+      display: flex;
+      
+      justify-content: space-between;
+      padding: 10px;
+      -ms-flex-item-align: center;
+      
+  }
+ 
+  
+  
+  
+  .serach-input{
+      width: 100%;
+      height: 25px;
+      border-radius: 8px;
+      background: #03091e;
+      background: url("1search.png")  no-repeat  left;
+      border-color: rgb(201, 209, 215) ;
+      color: #fff;
+      padding-left: 35px;
+  }
+  .container-principal{
+      margin-top: 0px;
+      width: 150px;
+      height: 40px;
+      
+  }
+  .container-principal-input{
+      margin-top: 0px;
+      width: 300px;
+      height: 40px;
+  }
+  .main-input-container{
+      width: 300px;
+      height: 40px;
+      float: left;
+      margin: 0px 0px 0px 400px ;
+      margin-top: 0;
+  }
+  
+  .cursos-link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .container-principal-cursos{
+      
+      float: left;
+      margin: 0px 0px 0px 480px ;
+      height: 1060%;
+      font-size: 18px;
+      margin-top: 5px;
+  
+  
+  }
+  .butom-word{
+      width: 100%;
+      height: 35px;
+      border-radius: 5px;
+      background-color: #98ca3f;
+      border-color: rgb(18, 18, 18);
+      float: left;
+      margin: 0px 0px 0px 10px ;
+      font-weight: bold;
+  }
+  .butom-word:hover{
+      cursor: pointer;
+  }
+  .img-menu{
+      margin-top: 0px;
+      float: right;
+      margin-right: 45px;
+     
+  }
+  
+  
+  
+ 
+
+  /*------------------------------------------------------------------------------------*/
+  .tittle-main{
+  
+      width: 100%;
+      height: auto;
+      margin-bottom: 12px;
+      margin-top: 0;
+      
+  background-color: #fff;
+  }
+  h1{
+    justify-content: center;
+    margin-top: 25px;
+      
+      text-align: center;
+      color: #fff;
+  }
+  
+  .slider{
+      width: 64%;
+      margin: auto;
+      overflow: hidden;
+      margin-top:20px;
+      margin-bottom: 65px;
+      
+      
+  }
+  .slider ul{
+      display: flex;
+      padding: 0px;
+      width: 500%;
+      animation: cambio 20s infinite;
+      animation-direction: alternate;
+  }
+  .slider li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider img{
+  width: 100%;
+  
+  }
+  
+  
+  @keyframes cambio{
+      0% {margin-left:0 ;}
+      15%{margin-left: 0;}
+  
+      30%{margin-left: -100%;}
+      40%{margin-left: -100%;}
+  
+      50%{margin-left: -200%;}
+      70%{margin-left: -200%;}
+  
+      80%{margin-left: -300%;}
+      90%{margin-left: -300%;}
+  
+      90%{margin-left: -400%;}
+      100%{margin-left: -400%;}
+      
+      
+  }
+  ul{
+      text-align: center;
+      
+  }
+  
+  
+  /*------------------------------------------------------------------------------------*/
+   .container-footer{
+    
+        display:flex;
+      width: 100%;
+      height: 600px;
+      background-color: #03091e;
+     justify-content: center; 
+  }
+
+  
+
+  .contenedores_info{
+    width: 25%;
+    height:400px ;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 5px;
+    margin-top:30px;
+  } 
+
+  /***********************************************/
+.contenedor_cursos_footer{
+    width: 100%;
+    height: 12%;
+    background-color: rgba(128, 128, 128, 0);
+    margin-bottom: 2.3px;
+    text-align: center;
+    
+}
+.texto_cursos{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px;
+  margin-top: 10px;
+    
+}
+.triangulo{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 25px;
+  margin-top: 10px;
+  float: right;
+}
+
+  .rayaCOLOR{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(0, 121, 74);
+  }
+
+  .rayaCOLOR{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(3, 74, 180);
+  }
+  .rayaCOLOR1{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: red;
+  }.rayaCOLOR2{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: purple;
+  }.rayaCOLOR3{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: orange;
+  }.rayaCOLOR4{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: green;
+  }.rayaCOLOR5{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: fuchsia;
+  }.rayaCOLOR6{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(9, 93, 126);
+  }
+  .rayaCOLOR7{
+    position:absolute;
+    width: 4px;
+    height: 30px;
+    margin-top: 9px;
+    background-color: rgb(70, 255, 153);
+  }
+  /***********************************************/
+  .RAZER_LOGO{
+    width:150px ;
+    height: 60px;
+    background-image: url(imagenes/razer.png);
+    margin-top: 70px;
+    margin-left: 40px;
+    position: absolute;
+    background-color: #03091e;
+  } 
+
+  .LOGITECH_LOGO{
+    width:170px ;
+    height: 60px;
+    background-image: url(imagenes/logitech.png);
+    margin-top: 70px;
+    margin-left: 210px;
+    background-color: #03091e;
+  }
+
+  .texto_certificados{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .texto_premios{
+    color: white;
+    background-color: #97ca3f00;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+  }
+
+  .y_logo{
+    width:50px ;
+    height: 60px;
+    background-image: url(imagenes/G2.png);
+    margin-top: 130px;
+    margin-left: 65px;
+    position: absolute;
+    background-color: #03091e;
+  } 
+
+  .asu_logo{
+    width:110px ;
+    height: 56px;
+    background-image: url(imagenes/moster.png);
+    margin-top: 130px;
+    margin-left: 180px;
+    background-color: #03091e;
+  }
+  .redbull_logo{
+    
+    width:70px ;
+    height: 56px;
+    background-image: url(imagenes/redbull.png);
+    margin-top: -60px;
+    margin-left: 350px;
+    background-color: #03091e;
+  }
+/*************************************************************************************/
+.tiendaLogo{
+
+  width:200px ;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.lobo_logo{
+position: absolute;
+  width:px ;
+  height: 100px;
+  margin-top:0px;
+margin-left: 560px;
+background-color: transparent;
+
+ 
+}
+
+.isotipo2{
+  background-color:transparent;
+
+}
+
+.isotipo1{
+  background-color:#03091e;
+
+}
+
+.texto_frase{
+  color: white;
+  background-color: #97ca3f00;
+  float: left;
+  margin-left: 0xp;
+  text-align:left;
+  font-size: 17px;
+  margin-top: 30px;
+}
+.texto_gamer{
+  position:absolute;
+  color: rgb(253, 0, 0);
+  background-color: #97ca3f00;
+  float: left;
+  margin-left: 0x;
+  text-align:left;
+  font-size: 40px;
+  margin-top: 110px;
+  
+  
+}
+
+
+.CONTENEDOR-REDES-FONDO{
+  position: absolute;
+  background-color: #ae00ff00;
+  width: 100%;
+  height: 110px;
+  margin-left: 0px;
+  margin-top: 470px;
+  
+}
+
+.contenedor_redes{
+  background-color: #009cf700;
+  width:  240px;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 55px;
+ margin-left: 45%;
+
+  }
+
+
+.texto_redes{position: absolute;
+  color: white;
+  background-color: #a2ff0000;
+  font-size: 30px;
+  margin-left: 44%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+.logo_redes1{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/twitter.png);
+  margin-left: 120px;
+  background-color: #03091e;
+}
+.logo_redes2{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/youtube.png);
+  margin-left: 0px;
+  background-color: #03091e;
+}
+
+
+.logo_redes3{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/facebook.png);
+  margin-left: 60px;
+  background-color: #03091e;
+}
+.logo_redes4{
+  position: absolute;
+  width:40px ;
+  height: 40px;
+  background-image: url(imagenes/instagram.png);
+  margin-left: 180px;
+  background-color: #03091e;
+}
+
+
+
+
+  /*-----------------------PRODCUTOS-------------*/
+  
+
+.contenedor_venta{
+background: rgba(255, 1, 1, 0);
+ padding-left: 5PX;
+}
+
+  
+.productos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+color: #fff;
+}
+
+
+.productos li:hover{  
+border-color: red;
+
+}
+
+.productos li:active  {
+  border-color:#088c19;
+}
+
+
+
+.productos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos li:hover h2{
+  font-size: 33px;
+}
+
+.producto-descripcion{
+  font-size: 18px;
+}
+
+.producto-precio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:10px;
+}
+  /*-----------------------FIN--PRODCUTOS-------------*/
+
+
+
+
+
+
+
+
+
+  
+  header {
+    /* position: sticky;
+    top: 0; */
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+  background-image: radial-gradient(circle at 49.79% 47.58%,
+   #ffffff 0, #7d18b3 16.67%, #6f2ccc 33.33%, #695cf59f 50%, #0043fa3d 66.67%, #121f3d 83.33%, #121f3d 100%);	margin-bottom: 10px;
+
+    
+}
+
+.contenedornav {
+ 
+  background-color: reds;
+	width:90%; /* Establecemos que el ancho sera del 90% */
+
+  background-color: rgba(2, 255, 86, 0);
+	max-width:1260px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+    background-color: rgba(236, 13, 13, 0);
+    color:rgb(0, 0, 0);
+    font-size:40px;
+	line-height:100px;
+	float:left;
+  margin-left: 110px;
+ 
+}
+
+header nav {
+  
+  background-color: rgba(111, 0, 255, 0);
+	float:right;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.nav{
+  position: absolute;
+  margin-left: 900px;
+}
+
+header nav a {
+  background-color: rgba(0, 162, 255, 0);
+	display:inline-block;
+	color:rgb(0, 0, 0);
+text-decoration:none;
+	padding:5px 5px;
+	font-size:30px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+  margin-right: 20px;
+}
+
+header nav a:hover {
+background-color: whitesmoke
+;	border-radius:50px;
+}
+
+
+
+
+
+
+
+
+.titulo_animado-5{
+  background: linear-gradient(135deg, rgb(227, 227, 227) 0%, rgb(93, 104, 116) 100%);
+}
+
+.texto_titulo_animado {
+ color: #ffffff;
+ font: normal 50px Varela Round, sans-serif;
+ height: 60px;
+ left: 0;
+ letter-spacing: 5px;
+ text-align: center;
+ text-transform: uppercase;
+ width: 100%;
+ animation: move linear 2000ms infinite;
+ margin-top: 0px;
+ background-color: #121f3d;
+
+ 
+}
+/*Animación para rotar las sombras*/
+@keyframes move {
+ 0% {
+   text-shadow:
+     4px -4px 0 #da0641,
+     3px -3px 0 #da0641,
+     2px -2px 0 #da0641,
+     1px -1px 0 #da0641,
+     -4px 4px 0 #13f1fc,
+     -3px 3px 0 #13f1fc,
+     -2px 2px 0 #13f1fc,
+     -1px 1px 0 #13f1fc
+   ;
+ }
+ 25% {
+   text-shadow:
+     -4px -4px 0 #13f1fc,
+     -3px -3px 0 #13f1fc,
+     -2px -2px 0 #13f1fc,
+     -1px -1px 0 #13f1fc,
+     4px 4px 0 #da0641,
+     3px 3px 0 #da0641,
+     2px 2px 0 #da0641,
+     1px 1px 0 #da0641
+   ;
+ }
+ 50% {
+   text-shadow:
+     -4px 4px 0 #da0641,
+     -3px 3px 0 #da0641,
+     -2px 2px 0 #da0641,
+     -1px 1px 0 #da0641,
+     4px -4px 0 #13f1fc,
+     3px -3px 0 #13f1fc,
+     2px -2px 0 #13f1fc,
+     1px -1px 0 #13f1fc
+   ;
+ }
+ 75% {
+   text-shadow:
+     4px 4px 0 #13f1fc,
+     3px 3px 0 #13f1fc,
+     2px 2px 0 #13f1fc,
+     1px 1px 0 #13f1fc,
+     -4px -4px 0 #da0641,
+     -3px -3px 0 #da0641,
+     -2px -2px 0 #da0641,
+     -1px -1px 0 #da0641
+   ;
+ }
+ 100% {
+   text-shadow:
+     4px -4px 0 #da0641,
+     3px -3px 0 #da0641,
+     2px -2px 0 #da0641,
+     1px -1px 0 #da0641,
+     -4px 4px 0 #13f1fc,
+     -3px 3px 0 #13f1fc,
+     -2px 2px 0 #13f1fc,
+     -1px 1px 0 #13f1fc
+   ;
+ }
+}
+
